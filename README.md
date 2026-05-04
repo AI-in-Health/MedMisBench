@@ -29,7 +29,7 @@ This folder contains simple, standalone notebooks for reproducing the core evalu
 | --- | --- |
 | [`medmisbench_no_harness_eval.ipynb`](medmisbench_no_harness_eval.ipynb) | Direct model evaluation with no search or browsing tools. |
 | [`medmisbench_tool_harness_eval.ipynb`](medmisbench_tool_harness_eval.ipynb) | Tool-using evaluation with web search through Serper and page reading through Jina Reader. |
-| [`medmisbench_overview.png`](medmisbench_overview.png) | Overview figure used in this README. |
+| [`InjectionGeneration.ipynb`](InjectionGeneration.ipynb) | Script used to generate the MedMisbench from source datasets. |
 
 ## Dataset
 
