@@ -2,10 +2,6 @@
   <img src="medmisbench_overview.png" alt="MedMisBench overview" width="100%">
 </p>
 
-<p align="center">
-  <img src="medmisbench_example.png" alt="MedMisBench overview" width="100%">
-</p>
-
 <h1 align="center">MedMisBench</h1>
 
 <p align="center">
@@ -17,6 +13,10 @@
   <img alt="Task" src="https://img.shields.io/badge/Task-Adversarial%20Robustness-2f80ed">
   <img alt="Format" src="https://img.shields.io/badge/Format-JSONL%20%7C%20Notebooks-4c9f70">
   <img alt="Use" src="https://img.shields.io/badge/Use-Evaluation%20Only-6f42c1">
+</p>
+
+<p align="center">
+  <img src="Figure2.pdf" alt="MedMisBench example" width="100%">
 </p>
 
 MedMisBench evaluates whether large language models preserve the correct medical judgment when targeted misleading clinical context is introduced into a multiple-choice task. The benchmark covers five medical QA sources, five content-corruption types, and three provenance framings such as neutral false statements, patient claims, and authority-framed misinformation.
