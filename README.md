@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="Figure2.pdf" alt="MedMisBench example" width="100%">
+  <img src="Medmisbench example.png" alt="MedMisBench example" width="100%">
 </p>
 
 MedMisBench evaluates whether large language models preserve the correct medical judgment when targeted misleading clinical context is introduced into a multiple-choice task. The benchmark covers five medical QA sources, five content-corruption types, and three provenance framings such as neutral false statements, patient claims, and authority-framed misinformation.
