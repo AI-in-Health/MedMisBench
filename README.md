@@ -2,6 +2,10 @@
   <img src="medmisbench_overview.png" alt="MedMisBench overview" width="100%">
 </p>
 
+<p align="center">
+  <img src="medmisbench_example.png" alt="MedMisBench overview" width="100%">
+</p>
+
 <h1 align="center">MedMisBench</h1>
 
 <p align="center">
