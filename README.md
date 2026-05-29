@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://huggingface.co/datasets/AI4HealthResearch/MedMisBench"><img alt="Hugging Face dataset" src="https://img.shields.io/badge/Dataset-Hugging%20Face-ffcc4d"></a>
-  <img alt="Task" src="https://img.shields.io/badge/Task-Adversarial%20Robustness-2f80ed">
+  <a href="https://www.biorxiv.org/content/10.64898/2026.05.25.727671v1"><img alt="bioRxiv" src="//img.shields.io/badge/Task-Adversarial%20Robustness-2f80ed"></a>
   <img alt="Format" src="https://img.shields.io/badge/Format-JSONL%20%7C%20Notebooks-4c9f70">
   <img alt="Use" src="https://img.shields.io/badge/Use-Evaluation%20Only-6f42c1">
 </p>
