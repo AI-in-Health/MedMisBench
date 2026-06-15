@@ -5,7 +5,7 @@
 <h1 align="center">MedMisBench</h1>
 
 <p align="center">
-  <strong>Benchmarking LLMs Under Misleading Medical Context</strong>
+  <strong>Measuring Epistemic Resilience of LLMs Under Misleading Medical Context</strong>
 </p>
 
 <p align="center">
