@@ -9,14 +9,10 @@
 </p>
 
 <p align="center">
-  <a href="https://huggingface.co/datasets/AI4HealthResearch/MedMisBench"><img alt="Hugging Face dataset" src="https://img.shields.io/badge/Dataset-Hugging%20Face-ffcc4d"></a>
-  <a href="https://www.biorxiv.org/content/10.64898/2026.05.25.727671v1"><img alt="Paper" src="https://img.shields.io/badge/Paper-bioRxiv-2f80ed"></a>
+  <a href="https://huggingface.co/datasets/HongjianZhou/MedMisBench"><img alt="Hugging Face dataset" src="https://img.shields.io/badge/Dataset-Hugging%20Face-ffcc4d"></a>
+  <a href="https://arxiv.org/abs/2606.12291"><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-2f80ed"></a>
   <img alt="Format" src="https://img.shields.io/badge/Format-JSONL%20%7C%20Notebooks-4c9f70">
   <img alt="Use" src="https://img.shields.io/badge/Use-Evaluation%20Only-6f42c1">
-</p>
-
-<p align="center">
-  <img src="Medmisbench example.png" alt="MedMisBench example" width="100%">
 </p>
 
 MedMisBench evaluates whether large language models preserve the correct medical judgment when targeted misleading clinical context is introduced into a multiple-choice task. The benchmark covers five medical QA sources, five content-corruption types, and three provenance framings such as neutral false statements, patient claims, and authority-framed misinformation.
@@ -29,7 +25,7 @@ This folder contains simple, standalone notebooks for reproducing the core evalu
 | --- | --- |
 | [`medmisbench_no_harness_eval.ipynb`](medmisbench_no_harness_eval.ipynb) | Direct model evaluation with no search or browsing tools. |
 | [`medmisbench_tool_harness_eval.ipynb`](medmisbench_tool_harness_eval.ipynb) | Tool-using evaluation with web search through Serper and page reading through Jina Reader. |
-| [`InjectionGeneration.ipynb`](InjectionGeneration.ipynb) | Script used to generate the MedMisbench from source datasets. |
+| [`medmisbench_overview.png`](medmisbench_overview.png) | Overview figure used in this README. |
 
 ## Dataset
 
@@ -38,7 +34,7 @@ The dataset is hosted on Hugging Face:
 ```python
 from datasets import load_dataset
 
-rows = load_dataset("AI4HealthResearch/MedMisBench", "MEDMISQA")["MEDMISQA"]
+rows = load_dataset("HongjianZhou/MedMisBench", "MEDMISQA")["MEDMISQA"]
 print(rows[0])
 ```
 
@@ -138,4 +134,20 @@ MedMisBench intentionally contains false and misleading medical statements. It i
 
 ## Citation
 
-If you use MedMisBench, please cite the Hugging Face dataset release and the accompanying manuscript once available.
+If you use MedMisBench, please cite the Hugging Face dataset release and the accompanying manuscript.
+
+Dataset: https://huggingface.co/datasets/HongjianZhou/MedMisBench
+
+Paper: https://arxiv.org/abs/2606.12291
+
+```bibtex
+@misc{zhou2026measuringepistemicresiliencellms,
+      title={Measuring Epistemic Resilience of LLMs Under Misleading Medical Context}, 
+      author={Hongjian Zhou and Xinyu Zou and Jinge Wu and Sean Wu and Junchi Yu and Bradley Max Segal and Tobias Erich Niebuhr and Sara Amro and Michael Petrus and Sheikh Momin and Alexandra M. Cardoso Pinto and Rachel Niesen and Laura Sophie Wegner and Dhruv Darji and Jung Moses Koo and Joshua Fieggen and Kapil Narain and Mingde Zeng and Lei Clifton and Linda Shapiro and Fenglin Liu and David A. Clifton},
+      year={2026},
+      eprint={2606.12291},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2606.12291}, 
+}
+```
