@@ -134,11 +134,7 @@ MedMisBench intentionally contains false and misleading medical statements. It i
 
 ## Citation
 
-If you use MedMisBench, please cite the Hugging Face dataset release and the accompanying manuscript.
-
-Dataset: https://huggingface.co/datasets/HongjianZhou/MedMisBench
-
-Paper: https://arxiv.org/abs/2606.12291
+If you use MedMisBench, please cite the manuscript.
 
 ```bibtex
 @misc{zhou2026measuringepistemicresiliencellms,
